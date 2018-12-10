@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2535e374-3317-452b-a9c2-0645880fafe9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/news/util/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/news/util/WordCount.java" afterDir="false" />
-    </list>
+    <list default="true" id="2535e374-3317-452b-a9c2-0645880fafe9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +59,13 @@
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="4" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -114,11 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/corenlp/dict3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -313,8 +308,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -510,6 +505,7 @@
       <workItem from="1544421678596" duration="281000" />
       <workItem from="1544422632507" duration="120000" />
       <workItem from="1544455704471" duration="751000" />
+      <workItem from="1544465089516" duration="208000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1542986381658</created>
@@ -554,13 +550,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139442000" />
+    <option name="totallyTimeSpent" value="139650000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="295" y="72" width="1229" height="909" extended-state="0" />
+    <frame x="333" y="93" width="1229" height="909" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25947767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26368997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -919,11 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/corenlp/dict3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
