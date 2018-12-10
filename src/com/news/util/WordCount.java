@@ -50,7 +50,7 @@ public class WordCount {
                     if (map.containsKey(word)) {
                         map.put(word, map.get(word) + 1);
                     } else {
-                        map.put(word, 0);
+                        map.put(word, 1);
 //                        System.out.println("Successfully put +1 records");
                     }
                 }
@@ -80,6 +80,7 @@ public class WordCount {
         BufferedWriter writer = null;
         writer = new BufferedWriter(new FileWriter(filename));
 
+        int map_no = 1;
         for (HashMap<String, Integer> map : MAPS) {
             ArrayList<Map.Entry<String, Integer>> entries = new ArrayList<>(map.entrySet());
             Collections.sort(entries, new Comparator<Map.Entry<String, Integer>>() {
@@ -96,11 +97,12 @@ public class WordCount {
                         writer.write(entries.get(entries.size() - i - 1).getKey());
                         writer.write("=" + entries.get(entries.size() - i - 1).getValue() + " ");
                     } catch (Exception e) {
-                        System.out.println("Something goes wrong in the writer! Check!!");
+                        System.out.println(String.format("Not enough length in the %s th map! But don't worry!!", map_no));
                     }
                 }
             }
             writer.newLine();
+            map_no +=1;
         }
         writer.close();
     }
