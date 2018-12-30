@@ -14,7 +14,7 @@ Lab Assistant Project - Web Crawling, Semantic Search and Knowledge Graph Constr
 5. Step five: Count top N words of each news piece and this will generate TopNwords_10Facts.txt file
 
 Output 1 - TopNwords_10Facts.txt 
-[![image](https://github.com/huangbeidan/Spider_news/blob/master/assets/output11.png)](#capture)
+[![image](https://github.com/huangbeidan/SpiderNews/blob/master/assets/output11.png)](#capture)
 
 ### Function 2: src/com/corenlp/dict4.java
 1. Read all news from "10Knewsarticles.csv"
@@ -23,7 +23,7 @@ Output 1 - TopNwords_10Facts.txt
 4. Write all the extracted and filtered NNPs to local disk file 
 
 Output 2 - dictionary.csv 
-[![image](https://github.com/huangbeidan/Spider_news/blob/master/assets/output22.png)](#capture)
+[![image](https://github.com/huangbeidan/Spidernews/blob/master/assets/output22.png)](#capture)
 
 ### Function 3: src/graph/PGraph.java
 1. Construct the TreeMap by reading from csv: Vertex + Sentence1/Sentence2/...
@@ -31,4 +31,4 @@ Output 2 - dictionary.csv
 3. Build the graph by connecting first vertex on each
 
 Output 3 - Graph result - each number represents a particular NNPs
-[![image](https://github.com/huangbeidan/Spider_news/blob/master/assets/output33.png)](#capture)
+[![image](https://github.com/huangbeidan/Spidernews/blob/master/assets/output33.png)](#capture)
