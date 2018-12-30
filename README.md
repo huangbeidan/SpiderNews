@@ -12,6 +12,7 @@ Lab Assistant Project - Web Crawling, Semantic Search and Knowledge Graph Constr
 3. Clean up the allnews.txt file (delete html tags) and generate clean_10FactNews.txt file
 4. Get rid of all stop words and stem them! This will generate allkeywords_10Facts.txt file
 5. Step five: Count top N words of each news piece and this will generate TopNwords_10Facts.txt file
+
 (You can find all the outputs file in files named by dates, e.g. 2018-11-13)
 
 Output 1 - TopNwords_10Facts.txt 
