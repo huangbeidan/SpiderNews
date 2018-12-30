@@ -20,7 +20,7 @@ public class NEWS_ONEStep {
     public static void main(String[] args) throws IOException {
         /** All results would be saved into the subfolder named by date */
 
-        // Define some public variables
+        // Define some public variables, all files will be saved into the folder named by today's date
         String path = path_name_generator.pathname();
 
         // Step one: filter the original result.txt (1st url list) to delete unwanted links

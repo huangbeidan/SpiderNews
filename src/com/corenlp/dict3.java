@@ -21,7 +21,6 @@ public class dict3 {
         String test = "Political observers can already see how protests are erupting throughout the state in response to how the Republican legislature voted to significantly reduce the powers of Gov.-elect Tony Evers and Attorney General-elect Josh Kaul before they can take office, according to CNN. Wisconsin Republicans are hardly innovators here — North Carolina Republicans passed a similar law after a Democrat won the governor's mansion in their state in 2016, and Michigan Republicans are aiming to do something similar right now — but the situation is particularly galling in Wisconsin due to its reputation as a bastion of integrity when it comes to the democratic process. In order to better understand both the radical nature of the legislature's actions and what it will mean for the future of democracy in Wisconsin, Salon spoke by email with Michael Wagner, an associate professor at the University of Wisconsin-Madison who specializes in \"research, teaching, and service are animated by the question, 'how well does democracy work?'\"";
         Document doc = new Document(test);
 
-
         for (Sentence sent : doc.sentences()) {
 
             Tree parser = sent.parse();
@@ -40,17 +39,18 @@ public class dict3 {
                             if(!isStopword(iter) ) {
                                 if (isUpperCase(iter.charAt(0))) {
                                     out_first.add(new Stemmer_dict().stem1(iter).replaceAll("['`]{2}", ""));
-                                }
-                                else{
-                                    out_first.add(new Stemmer_dict().stem2(iter).replaceAll("['`]{2}", ""));
 
                                 }
+                                else{
+                                   out_first.add(new Stemmer_dict().stem2(iter).replaceAll("['`]{2}", ""));
+                                }
                             }
-//                            out_first.add(iter);
+
                         }
                         i++;
                     }
                     String res = String.join(" ", out_first).trim();
+//                    System.out.println(sent.toString());
                     System.out.println(res);
 //                    System.out.println(out_first);
 //                    output.add(out_first);
